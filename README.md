@@ -5,16 +5,17 @@ A Python-based ETL testing utility designed to perform row-by-row validation bet
 # 2. Setup Instructions
 To run this script, ensure you have Python installed and follow these commands:
 
-"Bash"
-
 Clone the repository
+
 **git clone <your-repo-link>
 cd <repo-folder>**
 
 Install dependencies
+
 **pip install pandas**
 
 Run the script
+
 **python main.py**
 
 # 3. The Logic (How I Thought)
