@@ -28,7 +28,7 @@ Hardest Bug & Fix: The most common issue was Index Misalignment. If the source a
 The Fix: I implemented a sorting step using sort_values() on a unique identifier (like ID) before the comparison. This ensures we are comparing "Apples to Apples" regardless of the order in which the database exported the rows.
 
 # 4. Output Screenshots
-
+<img width="1901" height="878" alt="image" src="https://github.com/user-attachments/assets/b0b5bc7e-d137-457f-bcf1-701e187032ae" />
 
 # 5. Future Improvements
 If I had two more days to refine this tool, I would add:
