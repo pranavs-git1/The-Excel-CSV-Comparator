@@ -14,6 +14,7 @@ python comparator.py
 
 # 3. The Logic (How I Thought)
 Why this approach? 
+
 I chose Pandas over the standard CSV library because of its "vectorized" comparison capabilities. Instead of writing nested loops to check every cell (which is slow for large datasets), Pandas allows us to compare entire DataFrames instantly using df1 != df2. This makes the code more readable, maintainable, and significantly faster for actual ETL production environments.
 
 Hardest Bug & Fix: The most common issue was Index Misalignment. If the source and target files were sorted differently, the script flagged every row as a mismatch even if the data was identical.
